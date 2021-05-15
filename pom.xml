@@ -12,7 +12,7 @@
     <artifactId>listenerEmail</artifactId>
     <version>1.0.0</version>
     <name>LimpaCityListenerEmail</name>
-    <description>Aplicação para ouvir a fila de mensagem de email e enviar os emails</description>
+    <description>Aplicação para ouvir a fila de mensagem de e-mail e enviá-los</description>
     <properties>
         <java.version>11</java.version>
     </properties>
@@ -29,12 +29,10 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/javax.mail/mail -->
-        <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-email -->
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-email</artifactId>
-
+            <version>1.5</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>

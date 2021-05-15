@@ -24,7 +24,7 @@ public class OpenAPIConfig {
                         .addSecuritySchemes(API_KEY, apiKeySecuritySchema()))
                 .info(new Info()
                         .title("Limpa City - Listener Email")
-                        .description("Aplicação para ouvir a fila de mensagem de email e enviar os emails")
+                        .description("Aplicação para ouvir a fila de mensagem de e-mail e enviá-los")
                         .version(appVersion))
                 .security(Collections.singletonList(new SecurityRequirement().addList(API_KEY)));
     }
